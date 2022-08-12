@@ -1,8 +1,101 @@
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
 }
+
+/* GENERAL  */
+header {
+  display: flex;
+  background-color: #00b7ff;
+  width: 100vw;
+  height: 60px;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* list-page */
+
+.list-page {
+  padding: 50px;
+}
+
+.list-page h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: solid 1px #00b7ff;
+  border-radius: 5px;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 1rem;
+}
+
+.list-page h3 {
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.list-page ul {
+  margin-bottom: 1rem;
+}
+
+.list-page a {
+  border: solid 1px #00b7ff;
+  border-radius: 3rem;
+  padding: 1rem;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #00b7ff;
+  border-radius: 3rem;
+  padding: 1rem;
+  width: 100px;
+}
+
+.btn {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-page,
+.form-create-update-drone {
+  padding: 50px;
+}
+
+.form-page h2 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.form-create-update-drone label {
+  margin-right: 1rem;
+}
+
+.form-create-update-drone div {
+  margin: 1rem 0 1rem 0;
+}
+
+
